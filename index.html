@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Web Profesional</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Permanent+Marker&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="image/logo.ico">
+</head>
+
+<body>
+
+    <div class="barra-social">
+        <div class="iconos-sociales">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <header>
+        <div class="barra-superior">
+            <div class="logo">DISEÑO WEB PROFESIONAL</div>
+            <div class="menu-toggle">&#x2630;</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Aplicaciones.html">Aplicaciones</a></li>
+                    <li><a href="tutoriales.html">Tutoriales</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <a class="boton-curso" href="#">Reserva tu Curso</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <h1>Diseño y Desarrollo Web</h1>
+                    <h2>Lenguaje de Etiquetas HTML y CSS</h2>
+                    <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del
+                        texto de un sitio mientras que mira su diseño.</p>
+                    <a class="btn-explorar" href="#">Explorar más Información</a>
+                </div>
+                <div class="hero-image">
+                    <img src="image/imagen2.jpg" alt="Robot">
+                </div>
+            </div>
+        </section>
+
+        <section class="tabla-html">
+            <h2>Uso de Tablas en HTML</h2>
+            <table>
+                <tr>
+                    <td>
+                        <h3>24</h3>
+                        <p>Páginas</p>
+                    </td>
+                    <td>
+                        <h3>12</h3>
+                        <p>HTML</p>
+                    </td>
+                    <td>
+                        <h3>6</h3>
+                        <p>CSS</p>
+                    </td>
+                </tr>
+            </table>
+            <a class="boton-ver-aplicaciones" href="#">Ver Aplicaciones</a>
+        </section>
+
+        <section class="grid-imagenes">
+            <h2>Creando Grid <span>Para las Imágenes</span></h2>
+            <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido.</p>
+            <div class="contenedor-grid">
+                <div class="item-grid"><img src="image/imagen1.jpg" alt="Robot"></div>
+                <div class="item-grid"><img src="image/imagen3.jpg" alt="Robot"></div>
+                <div class="item-grid"><img src="image/iamgen4.jpg" alt="Robot"></div>
+                <div class="item-grid"><img src="image/imagen5.jpg" alt="Robot"></div>
+                <div class="item-grid grande"><img src="image/imagen6.jpg" alt="Robot"></div>
+            </div>
+            <a class="boton-ver" href="#">Ver Tutoriales</a>
+        </section>
+
+        <div class="container">
+            <div class="left">
+                <!-- La imagen de fondo se establecerá mediante CSS -->
+            </div>
+            <div class="right">
+                <form>
+                    <h2>Ingresa tus Datos</h2>
+                    <p>Nos pondremos en contacto contigo</p>
+                    <button type="button" class="google-btn">
+                        <i class="fab fa-google"></i> Rellena tus datos con Google
+                    </button>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="mail@abc.com" required>
+                    <label for="name">Nombre y Apellidos</label>
+                    <input type="text" id="name" name="name" placeholder="Nombre y Apellidos" required>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="promotions" name="promotions">
+                        <label for="promotions">Acepto envío de promociones</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Datos</button>
+                    <p class="facebook">Completar tus datos con: <a href="#">cuenta de facebook</a></p>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-item social">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A</p>
+            <div class="social-icons-footer">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+            </div>
+        </div>
+        <div class="footer-item mapa-sitio">
+            <h3>MAPA DE SITIO</h3>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Aplicaciones</a></li>
+                <li><a href="#">Tutoriales</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer-item evaluacion">
+            <h3>EVALUACIÓN PERMANENTE 04</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+        </div>
+        <div class="footer-item subscribe">
+            <h3>SUSCRIBETE A <span>NUESTRO CURSO</span></h3>
+            <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido.</p>
+            <form>
+                <input type="email" placeholder="Tu email">
+                <button type="submit">ENVIAR DATOS</button>
+            </form>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('nav ul').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
